@@ -1,0 +1,18 @@
+Sat Dec  7 12:08:36 2024: Falco version: 0.39.2 (x86_64)
+Sat Dec  7 12:08:36 2024: Falco initialized with configuration files:
+Sat Dec  7 12:08:36 2024:    /etc/falco/config.d/engine-kind-falcoctl.yaml | schema validation: ok
+Sat Dec  7 12:08:36 2024:    /etc/falco/falco.yaml | schema validation: ok
+Sat Dec  7 12:08:36 2024: System info: Linux version 6.6.15-amd64 (devel@kali.org) (gcc-13 (Debian 13.2.0-24) 13.2.0, GNU ld (GNU Binutils for Debian) 2.42) #1 SMP PREEMPT_DYNAMIC Kali 6.6.15-2kali1 (2024-05-17)
+Sat Dec  7 12:08:36 2024: Loading rules from:
+Sat Dec  7 12:08:37 2024:    /etc/falco/falco_rules.yaml | schema validation: ok
+Sat Dec  7 12:08:37 2024:    /etc/falco/falco_rules.local.yaml | schema validation: none
+Sat Dec  7 12:08:37 2024: The chosen syscall buffer dimension is: 8388608 bytes (8 MBs)
+Sat Dec  7 12:08:37 2024: Starting health webserver with threadiness 4, listening on 0.0.0.0:8765
+Sat Dec  7 12:08:37 2024: Loaded event sources: syscall
+Sat Dec  7 12:08:37 2024: Enabled event sources: syscall
+Sat Dec  7 12:08:37 2024: Opening 'syscall' source with modern BPF probe.
+Sat Dec  7 12:08:37 2024: One ring buffer every '2' CPUs.
+12:10:30.030117080: Critical Fileless execution via memfd_create (container_start_ts=<NA> proc_cwd=/var/lib/docker/overlay2/2c78d6aa3fe5a3eafbca188b53bf2504ded606fc7c710d3d45d263f0338c97c6/merged/ evt_res=SUCCESS proc_sname=containerd gparent=containerd-shim evt_type=execve user=root user_uid=0 user_loginuid=-1 process=6 proc_exepath=memfd:runc_cloned:/proc/self/exe parent=runc command=6 init terminal=0 exe_flags=EXE_WRITABLE|EXE_FROM_MEMFD container_id=host container_name=host)
+12:12:47.892798000: Critical Fileless execution via memfd_create (container_start_ts=<NA> proc_cwd=/var/lib/docker/overlay2/2c78d6aa3fe5a3eafbca188b53bf2504ded606fc7c710d3d45d263f0338c97c6/merged/ evt_res=SUCCESS proc_sname=containerd gparent=containerd-shim evt_type=execve user=root user_uid=0 user_loginuid=-1 process=6 proc_exepath=memfd:runc_cloned:/proc/self/exe parent=runc command=6 init terminal=0 exe_flags=EXE_WRITABLE|EXE_FROM_MEMFD container_id=host container_name=host)
+12:12:47.961997475: Notice A shell was spawned in a container with an attached terminal (evt_type=execve user=root user_uid=0 user_loginuid=-1 process=sh proc_exepath=/usr/bin/dash parent=containerd-shim command=sh terminal=34816 exe_flags=EXE_WRITABLE|EXE_LOWER_LAYER container_id=c6bfe82feeb4 container_name=great_vaughan)
+12:15:16.371258306: Critical Fileless execution via memfd_create (container_start_ts=<NA> proc_cwd=/var/lib/docker/overlay2/2c78d6aa3fe5a3eafbca188b53bf2504ded606fc7c710d3d45d263f0338c97c6/merged/ evt_res=SUCCESS proc_sname=containerd gparent=containerd-shim evt_type=execve user=root user_uid=0 user_loginuid=-1 process=6 proc_exepath=memfd:runc_cloned:/proc/self/exe parent=runc command=6 init terminal=0 exe_flags=EXE_WRITABLE|EXE_FROM_MEMFD container_id=host container_name=host)
